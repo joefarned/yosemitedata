@@ -1,3 +1,95 @@
 body {
-  background-image: url(../img/background.jpg);
+  margin: 0;
+  background-color: #f3f3f3;
+  background: url(../img/background.jpg) center no-repeat;
+  background-size: cover;
+}
+
+/* Disable ugly boxes around images in IE10 */
+a img{
+  border: 0px;
+}
+
+::-moz-selection {
+  background-color: #6ab344;
+  color: #fff;
+}
+
+::selection {
+  background-color: #6ab344;
+  color: #fff;
+}
+
+.image-header {
+}
+
+.title-section {
+  position: relative;
+  height: 700px;
+  width: auto;
+  margin: 30px;
+
+}
+
+.logo-font {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1;
+  color: #03A678;
+  font-weight: 500;
+  text-align: left;
+}
+
+.company-name {
+  font-size: 60px;
+  padding-top: 1px;
+}
+
+.company-slogan {
+  font-size: 21px;
+  padding-top: 24px;
+}
+
+
+.sign-up-section {
+  background-size: cover;
+  width: 100%;
+  background-color: #37474f;
+}
+
+
+.sign-up-content {
+  max-width: 800px;
+  margin-left: 20%;
+  padding: 24px;
+  text-align: left;
+  color: white;
+}
+
+.email_input {
+	display: inline-flex;
+}
+
+.inquire-button {
+	margin-left: 20px;
+}
+
+/**** Mobile layout ****/
+@media (max-width: 900px) {
+
+  .title-section {
+    height: 350px;
+  }
+
+  .company-name {
+    font-size: 26px;
+    margin: 0 16px;
+    padding-top: 10px;
+  }
+
+  .company-slogan {
+    font-size: 16px;
+    margin: 0 16px;
+    padding-top: 8px;
+  }
+
 }
