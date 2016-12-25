@@ -79,7 +79,10 @@ $("#user_email").submit(function(event){
 // }
 
 function successMessage() {
-	$(".sign-up-prompt").toggle("slow", function() {
-		$(".sign-up-thanks").toggle("slow");
-	});
+    $(".sign-up-prompt").css("visibility", "hidden");
+    $(".email-input").toggle(false);
+    $(".sign-up-title").text("Thanks!");
+    $(".thank-message").toggle(true);
+    $(".sign-up-title").css("padding-bottom", "20px");
+    $(".sign-up-prompt").css("visibility", "visible");
 }

@@ -65,15 +65,35 @@ a img{
 
 
 .sign-up-content {
-  max-width: 800px;
   margin-left: 20%;
   padding: 24px;
   text-align: left;
   color: white;
+  display: inline-flex;
 }
 
-.email_input {
+.sign-up-prompt {
+  margin-left: 10%;
+}
+
+.about-us-section {
+	max-width: 50%;
+}
+
+.about-us-title {
+	padding-bottom: 20px;
+}
+
+.about-us-description p{
+	font-size: 16px;
+}
+
+.email-input {
 	display: inline-block;
+}
+
+.thank-message p{
+	font-size: 16px;
 }
 
 .inquire-button {
