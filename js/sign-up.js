@@ -71,15 +71,14 @@ $("#user_email").submit(function(event){
 
     // Prevent default posting of form
     event.preventDefault();
-    successMessage();
+    setTimeout(successMessage, 500);
 });
 
-async function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
+// async function sleep(ms) {
+//   return new Promise(resolve => setTimeout(resolve, ms));
+// }
 
-async function successMessage() {
-	await sleep(500);
+function successMessage() {
 	$(".sign-up-prompt").toggle("slow", function() {
 		$(".sign-up-thanks").toggle("slow");
 	});
