@@ -40,11 +40,9 @@ $("#user_email").submit(function(event){
     $inputs.prop("disabled", true);
 
     // Fire off the request to /form.php
-    request = $.ajax({
-        url: "https://script.google.com/macros/s/AKfycbwV94B55P9mS6oaHbGUzyH2qS_9pUQiQY-_x8UlPQqHNRiFNKc/exec",
-        type: "post",
-        data: serializedData
-    });
+    request = 	$.get("https://script.google.com/macros/s/AKfycbwV94B55P9mS6oaHbGUzyH2qS_9pUQiQY-_x8UlPQqHNRiFNKc/exec",
+	 	serializedData
+	 );
 
     // Callback handler that will be called on success
     request.done(function (response, textStatus, jqXHR){
