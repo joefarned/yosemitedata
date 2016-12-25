@@ -83,20 +83,5 @@ a img{
 /**** Mobile layout ****/
 @media (max-width: 900px) {
 
-  .title-section {
-    height: 350px;
-  }
-
-  .company-name {
-    font-size: 26px;
-    margin: 0 16px;
-    padding-top: 10px;
-  }
-
-  .company-slogan {
-    font-size: 16px;
-    margin: 0 16px;
-    padding-top: 8px;
-  }
 
 }
