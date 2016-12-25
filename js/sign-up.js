@@ -3,6 +3,10 @@
 // Variable to hold request
 var request;
 
+window.onload = function() {
+	$(".sign-up-section").toggle("slow");
+}
+
 // Bind to the submit event of our form
 $("#user_email").submit(function(event){
 
