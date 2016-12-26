@@ -35,7 +35,6 @@ a img{
   height: auto;
   width: auto;
   margin: 30px;
-
 }
 
 .logo-font {
@@ -103,5 +102,16 @@ a img{
 /**** Mobile layout ****/
 @media (max-width: 900px) {
 
+  .sign-up-content {
+    margin-left: 10%;
+    padding: 24px;
+    text-align: left;
+    color: white;
+    display: inline-block;
+  }
+
+  .sign-up-prompt {
+    margin-left: 0%;
+  }
 
 }
