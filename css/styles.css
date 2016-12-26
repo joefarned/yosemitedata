@@ -2,6 +2,7 @@
   -moz-box-sizing: border-box; 
   -webkit-box-sizing: border-box; 
   box-sizing: border-box; 
+  -webkit-overflow-scrolling: touch;
 }
 
 body {
@@ -63,7 +64,7 @@ a img{
 
 
 .sign-up-content {
-  margin-left: 20%;
+  margin-left: 10%;
   padding: 24px;
   text-align: left;
   color: white;
